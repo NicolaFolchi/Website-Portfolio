@@ -1,10 +1,10 @@
 body{
 	
 	text-align: center;
-		
+	background: #99badd url(pattern.png) repeat;
 }
 
-h1{ 
+#main_title{ 
 	
 	font: bold 30px consolas;
 	color: black;
@@ -12,24 +12,26 @@ h1{
 	width: 55%;
 	-webkit-border-radius: 10px;	
 	-webkit-box-flex: 1;
-	background: #CFC501;
+	background: #CED5DA;
 	padding: 5px;
 	-webkit-transform: translate(215px);
 	-webkit-box-shadow: rgb(110,110,110) 5px 5px 5px;
 	-webkit-transition: color 1s;
 }
 
-h1:hover{
+#main_title:hover{
 	color: red;
 }
 
 #front_page{
 	
-	border: solid 2px;
+	border: solid 1px;
 	margin: 30px 260px;
-	padding-bottom: 600px;
+	padding-bottom: 200px;
 	background: #99badd;
 	-webkit-box-flex: 1;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: rgb(110,110,110) 5px 5px 5px;
 }
 
 #menu{
@@ -46,16 +48,27 @@ h1:hover{
 	padding-right: 40px;
 	margin: 30px 20px;
 	-webkit-box-flex: 1;
-	-webkit-transition: -webkit-transform 1.5s, -webkit-box-shadow 1s;
+	-webkit-transition: -webkit-transform 1s, -webkit-box-shadow 1s;
 }
 
 #menu li:hover{
 	-webkit-transform: rotate(360deg);
 	-webkit-box-shadow: rgb(64, 125, 191) 1.5px 1.5px 1.5px inset;
 }
+
+#introduction, #temp{
+	padding-top: 10px;
+	border-top: solid 2px #79a4d2;
+	border-bottom: solid 2px #79a4d2;
+}
+
+#about_title, #contact_info{
+	font: bold 30px Courier;
+}
+
 p {
 	padding: 20px;
-	font: normal 15px calibri;
+	font: normal 20px Deja vu Sans Mono;
 	color: white;
 }
 
