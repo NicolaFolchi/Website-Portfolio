@@ -7,26 +7,52 @@ body{
 h1{ 
 	
 	font: bold 30px consolas;
-	color: blue;
+	color: black;
 	border: solid 2px;
 	width: 55%;
 	-webkit-border-radius: 10px;	
+	-webkit-box-flex: 1;
 	background: #CFC501;
 	padding: 5px;
-	border-spacing: center;
-	-webkit-box-align: center;
+	-webkit-transform: translate(215px);
 	-webkit-box-shadow: rgb(110,110,110) 5px 5px 5px;
+	-webkit-transition: color 1s;
+}
+
+h1:hover{
+	color: red;
 }
 
 #front_page{
 	
 	border: solid 2px;
-	margin: 30px 80px;
+	margin: 30px 260px;
 	padding-bottom: 600px;
 	background: #99badd;
 	-webkit-box-flex: 1;
 }
 
+#menu{
+}
+
+#menu li{
+	display: inline-block;
+	list-style: none;
+	font: normal 15px consolas;
+	border: solid 1px #79a4d2;
+	-webkit-box-shadow: rgb(64, 125, 191) 1px 1px 1px;
+	padding: 5px;
+	padding-left:40px;
+	padding-right: 40px;
+	margin: 30px 20px;
+	-webkit-box-flex: 1;
+	-webkit-transition: -webkit-transform 1.5s, -webkit-box-shadow 1s;
+}
+
+#menu li:hover{
+	-webkit-transform: rotate(360deg);
+	-webkit-box-shadow: rgb(64, 125, 191) 1.5px 1.5px 1.5px inset;
+}
 p {
 	padding: 20px;
 	font: normal 15px calibri;
