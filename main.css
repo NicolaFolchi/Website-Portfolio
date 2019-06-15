@@ -1,7 +1,7 @@
 body{
 	
 	text-align: center;
-	background: #99badd url(pattern.png) repeat;
+	background: #99badd url(pattern.png) repeat;/*99badd tar heel blue*/  /*333435 tentative grey*/
 }
 
 #main_title{ 
@@ -9,12 +9,12 @@ body{
 	font: bold 30px consolas;
 	color: black;
 	border: solid 2px;
-	width: 55%;
-	-webkit-border-radius: 10px;	
-	-webkit-box-flex: 1;
+	width: 30%;
 	background: #CED5DA;
 	padding: 5px;
-	-webkit-transform: translate(215px);
+	-webkit-border-radius: 10px;	
+	-webkit-box-flex: 1;
+	-webkit-transform: translate(340px, 10px); /* moves my title box to a specified amt. of pixels */
 	-webkit-box-shadow: rgb(110,110,110) 5px 5px 5px;
 	-webkit-transition: color 1s;
 }
@@ -23,30 +23,32 @@ body{
 	color: red;
 }
 
+#sub_title{
+	font: bold 25px Courier;
+	padding-top: 10px;
+}
+
 #front_page{
 	
 	border: solid 1px;
-	margin: 30px 260px;
-	padding-bottom: 200px;
-	background: #99badd;
+	margin: 10px 260px;
+	/* padding-bottom: 20px; */
+	background: #FFFFFF;
 	-webkit-box-flex: 1;
 	-webkit-border-radius: 10px;
 	-webkit-box-shadow: rgb(110,110,110) 5px 5px 5px;
 }
 
-#menu{
-}
-
 #menu li{
 	display: inline-block;
 	list-style: none;
-	font: normal 15px consolas;
+	font: bold 15px Consolas;
 	border: solid 1px #79a4d2;
-	-webkit-box-shadow: rgb(64, 125, 191) 1px 1px 1px;
 	padding: 5px;
 	padding-left:40px;
 	padding-right: 40px;
 	margin: 30px 20px;
+	-webkit-box-shadow: rgb(64, 125, 191) 1px 1px 1px;
 	-webkit-box-flex: 1;
 	-webkit-transition: -webkit-transform 1s, -webkit-box-shadow 1s;
 }
@@ -69,6 +71,6 @@ body{
 p {
 	padding: 20px;
 	font: normal 20px Deja vu Sans Mono;
-	color: white;
+	/* color: white; */
 }
 
