@@ -2,6 +2,7 @@ body{
 	
 	text-align: center;
 	background: #99badd url(pattern.png) repeat;/*99badd tar heel blue*/  /*333435 tentative grey*/
+	background-size: 1%;
 }
 
 #main_title{ 
@@ -44,9 +45,9 @@ body{
 	list-style: none;
 	font: bold 15px Consolas;
 	border: solid 1px #79a4d2;
-	padding: 5px;
-	padding-left:40px;
-	padding-right: 40px;
+	/* padding: 5px; */
+	/* padding-left:40px; */  /*need to fix due to the difference of padding when adding the links.
+	/* padding-right: 40px; */
 	margin: 30px 20px;
 	-webkit-box-shadow: rgb(64, 125, 191) 1px 1px 1px;
 	-webkit-box-flex: 1;
@@ -54,8 +55,25 @@ body{
 }
 
 #menu li:hover{
-	-webkit-transform: rotate(360deg);
-	-webkit-box-shadow: rgb(64, 125, 191) 1.5px 1.5px 1.5px inset;
+	/* -webkit-transform: rotate(360deg);
+	-webkit-box-shadow: rgb(64, 125, 191) 1.5px 1.5px 1.5px inset; */
+	background: #99badd;
+}
+
+#home_tab, #contact_tab{ /* will eventually be removed once all links are propertly added *UP* */
+	padding: 5px;
+	padding-left:40px;
+	padding-right: 40px;
+}
+
+a:link, a:visited {
+	display: block; /* must have "diplay: block;" in order for padding to take effect on inline elements */
+	border:  1px #79a4d2;
+	font: bold 15px Consolas;
+	color: black;
+	padding: 5px;
+	padding-left:40px;
+	padding-right: 40px;
 }
 
 #introduction, #temp{
