@@ -7,15 +7,16 @@ body{
 
 #main_title{ 
 	
+	text-align: center;
+	display: inline-block; /*centers my title*/
 	font: bold 30px consolas;
 	color: black;
 	border: solid 2px;
-	width: 30%;
 	background: #CED5DA;
 	padding: 5px;
 	-webkit-border-radius: 10px;	
 	-webkit-box-flex: 1;
-	-webkit-transform: translate(340px, 10px); /* moves my title box to a specified amt. of pixels */
+	/* -webkit-transform: translate(340px, 10px); /* moves my title box to a specified amt. of pixels */ */
 	-webkit-box-shadow: rgb(110,110,110) 5px 5px 5px;
 	-webkit-transition: color 1s;
 }
@@ -29,11 +30,10 @@ body{
 	padding-top: 10px;
 }
 
-#front_page{
-	
+#container {
+	width: 1080px; 
+	margin: 20px auto 20px; /*20px top margin, automatic right margin, 20px bottom margin, automatic left margin. */
 	border: solid 1px;
-	margin: 10px 260px;
-	/* padding-bottom: 20px; */
 	background: #FFFFFF;
 	-webkit-box-flex: 1;
 	-webkit-border-radius: 10px;
