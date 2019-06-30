@@ -1,23 +1,21 @@
 body{
 	
 	text-align: center;
-	background: #99badd url(images/pattern.png) repeat;/*99badd tar heel blue*/  /*333435 tentative grey*/
+	background: #333;/*; /* url(images/pattern.png) repeat;99badd tar heel blue*/  /*333435 tentative grey*/
 	background-size: 1%;
 }
 
 #main_title{ 
 	
-	text-align: center;
-	display: inline-block; /*centers my title*/
+	text-align: left;
+	/* display: inline-block; /*centers my title*/ 
 	font: bold 30px consolas;
-	color: black;
-	border: solid 2px;
-	background: #CED5DA;
+	color: #fff;
 	padding: 5px;
-	-webkit-border-radius: 10px;	
-	-webkit-box-flex: 1;
-	/* -webkit-transform: translate(340px, 10px); /* moves my title box to a specified amt. of pixels */ */
-	-webkit-box-shadow: rgb(110,110,110) 5px 5px 5px;
+	/* -webkit-border-radius: 10px;	 */
+	/* -webkit-box-flex: 1; */
+	/* -webkit-transform: translate(340px, 10px); /* moves my title box to a specified amt. of pixels */ 
+	/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
 	-webkit-transition: color 1s;
 }
 
@@ -34,36 +32,30 @@ body{
 	width: 1080px; 
 	margin: 20px auto 20px; /*20px top margin, automatic right margin, 20px bottom margin, automatic left margin. */
 	border: solid 1px;
-	background: #FFFFFF;
-	-webkit-box-flex: 1;
-	-webkit-border-radius: 10px;
-	-webkit-box-shadow: rgb(110,110,110) 5px 5px 5px;
+	background: #474B4F;
+	/* -webkit-box-flex: 1; */
+	/* -webkit-border-radius: 10px; */
+	/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
+}
+#menu{
+	background-color: #333;
+	overflow: hidden;
 }
 
-#menu li{
+#menu a{
+	float: right;
 	display: inline-block;
 	list-style: none;
-	font: bold 15px Consolas;
-	border: solid 1px #79a4d2;
-	/* padding: 5px; */
-	/* padding-left:40px; */  /*need to fix due to the difference of padding when adding the links.
-	/* padding-right: 40px; */
-	margin: 30px 20px;
-	-webkit-box-shadow: rgb(64, 125, 191) 1px 1px 1px;
-	-webkit-box-flex: 1;
-	-webkit-transition: -webkit-transform 1s, -webkit-box-shadow 1s;
+	font: 18px Helvetica;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #6B6E70;
+	-webkit-transition: background 0.1s, color 0.3s;
 }
 
-#menu li:hover{
-	/* -webkit-transform: rotate(360deg);
-	-webkit-box-shadow: rgb(64, 125, 191) 1.5px 1.5px 1.5px inset; */
-	background: #99badd;
-}
-
-#home_tab, #contact_tab{ /* will eventually be removed once all links are propertly added *UP* */
-	padding: 5px;
-	padding-left:40px;
-	padding-right: 40px;
+#menu a:hover{
+	background: #86C232; /* green */
+	color: white;
 }
 
 a:link, a:visited {
@@ -84,12 +76,14 @@ a:link, a:visited {
 
 #about_title, #contact_info{
 	font: bold 30px Courier;
+	color: #61892F;
 }
 
 p {
 	padding: 20px;
 	font: normal 20px Deja vu Sans Mono;
 	/* color: white; */
+	color: #6B6E70;
 }
 
 #social-icons {
