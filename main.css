@@ -2,7 +2,7 @@ body{
 	
 	text-align: center;
 	background: url(images/asfalt.png) repeat;/*; /* url(images/pattern.png) repeat;99badd tar heel blue*/  /*333435 tentative grey*/
-	height: 98vh;
+	/* height: 98vh; */
 }
 
 .center{
@@ -51,7 +51,7 @@ h3{
 }
 
 #container {
-	width: 1550px; 
+	width: 1200px; 
 	margin: 20px auto 20px; /*20px top margin, automatic right margin, 20px bottom margin, automatic left margin. */
 
 	/* -webkit-box-flex: 1; */
