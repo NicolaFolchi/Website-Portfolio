@@ -1,26 +1,48 @@
 body{
 	
 	text-align: center;
-	background: #333;/*; /* url(images/pattern.png) repeat;99badd tar heel blue*/  /*333435 tentative grey*/
-	background-size: 1%;
+	background: url(images/asfalt.png) repeat;/*; /* url(images/pattern.png) repeat;99badd tar heel blue*/  /*333435 tentative grey*/
+	height: 98vh;
 }
 
-#main_title{ 
+.center{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	display: block;
+}
+h1{ 
 	
-	text-align: left;
+	/* text-align: left; */
 	/* display: inline-block; /*centers my title*/ 
-	font: bold 30px consolas;
-	color: #fff;
-	padding: 5px;
+	/* font: bold 30px consolas; */
+	/* color: #fff; */
+	/* padding: 5px; */
 	/* -webkit-border-radius: 10px;	 */
 	/* -webkit-box-flex: 1; */
 	/* -webkit-transform: translate(340px, 10px); /* moves my title box to a specified amt. of pixels */ 
 	/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
-	-webkit-transition: color 1s;
+	/* -webkit-transition: color 1s; */
+	
+	letter-spacing: 25px;
+	font-size: 3.5rem;
+	color: white;
+	font-weight: 500;
+    line-height: 1.1;
+	display: block;
+}
+
+h3{
+	font-size: 2.10rem;
+	letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 1.1;
+	color: white;
 }
 
 #main_title:hover{
-	color: red;
+	color: #ff2b3b;
 }
 
 #sub_title{
@@ -29,25 +51,26 @@ body{
 }
 
 #container {
-	width: 1080px; 
+	width: 1550px; 
 	margin: 20px auto 20px; /*20px top margin, automatic right margin, 20px bottom margin, automatic left margin. */
-	border: solid 1px;
-	background: #474B4F;
+
 	/* -webkit-box-flex: 1; */
 	/* -webkit-border-radius: 10px; */
 	/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
 }
 #menu{
-	background-color: #333;
+	background: url(images/asfalt.png) repeat;
 	overflow: hidden;
 }
 
+
 #menu a{
 	float: right;
-	display: inline-block;
+	display: inline;
 	list-style: none;
-	font: 18px Helvetica;
-	padding: 14px 16px;
+	font: 22px Helvetica;
+	margin-top: 20px;
+	padding: 14px 25px;
 	text-decoration: none;
 	color: #6B6E70;
 	-webkit-transition: background 0.1s, color 0.3s;
@@ -63,11 +86,27 @@ a:link, a:visited {
 	border:  1px #79a4d2;
 	font: bold 15px Consolas;
 	color: black;
-	padding: 5px;
-	padding-left:40px;
-	padding-right: 40px;
+	/*padding: 5px;*/
+	/*padding-left:40px;*/
+	/*padding-right: 40px;*/
 }
 
+/* #menu #my_name{ */
+	/* color : #86C232; */
+	/* float: left; */
+	/* font: 22px Consolas; */
+	/* -webkit-transition: background 0.3s; */
+/* } */
+
+/* #my_name a:hover{ */
+	/* background: #6B6E70; */
+/* } */
+
+#temp{
+	background-color: #fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 #introduction, #temp{
 	padding-top: 10px;
 	border-top: solid 2px #79a4d2;
@@ -86,22 +125,24 @@ p {
 	color: #6B6E70;
 }
 
-#social-icons {
+.social-icons {
   text-align: center;
+  padding: 0px;
+  margin: 0px;
 }  
 
-#social-icons li {
+.social-icons li {
   display:inline-block;
   list-style-type:none;
   -webkit-user-select:none;
   -moz-user-select:none;
 }
  
-#social-icons li a {
+.social-icons li a {
   border-bottom: none;
  }
   
-#social-icons li img {
+.social-icons li img {
   width: 45px;
   height: 45px;
   margin-right: 5px;
