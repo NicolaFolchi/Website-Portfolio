@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 function changeFont(){
 	var text = $("#my_name");
-	text.css("font", "22px Consolas");
+	text.css("font", "18px Consolas");
 	text.css("float", "left");
 	text.css("color", "#86C232");
 }
