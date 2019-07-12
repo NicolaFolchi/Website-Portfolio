@@ -1,7 +1,25 @@
+.home{
+	height: 800px;
+	width: 100%;
+
+}
+
+.about{
+	height: 600px;
+	background-color: white;
+	margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+	padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 body{
 	
 	text-align: center;
 	background: url(images/asfalt.png) repeat;/*; /* url(images/pattern.png) repeat;99badd tar heel blue*/  /*333435 tentative grey*/
+
 	/* height: 98vh; */
 }
 
@@ -51,8 +69,6 @@ h3{
 }
 
 #container {
-	width: 1200px; 
-	margin: 20px auto 20px; /*20px top margin, automatic right margin, 20px bottom margin, automatic left margin. */
 
 	/* -webkit-box-flex: 1; */
 	/* -webkit-border-radius: 10px; */
@@ -61,6 +77,9 @@ h3{
 #menu{
 	background: url(images/asfalt.png) repeat;
 	overflow: hidden;
+		width: 1200px; 
+	margin: 20px auto 20px; /*20px top margin, automatic right margin, 20px bottom margin, automatic left margin. */
+
 }
 
 
@@ -91,38 +110,54 @@ a:link, a:visited {
 	/*padding-right: 40px;*/
 }
 
-/* #menu #my_name{ */
-	/* color : #86C232; */
-	/* float: left; */
-	/* font: 22px Consolas; */
-	/* -webkit-transition: background 0.3s; */
-/* } */
+.introduction{
+	
+}
 
-/* #my_name a:hover{ */
-	/* background: #6B6E70; */
-/* } */
 
 #temp{
-	background-color: #fff;
+	/* background-color: #fff; */
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-#introduction, #temp{
-	padding-top: 10px;
-	border-top: solid 2px #79a4d2;
-	border-bottom: solid 2px #79a4d2;
-}
+/* #introduction, #temp{ */
+	/* padding-top: 10px; */
+	/* border-top: solid 2px #79a4d2; */
+	/* border-bottom: solid 2px #79a4d2; */
+/* } */
 
 #about_title, #contact_info{
-	font: bold 30px Courier;
-	color: #61892F;
+	letter-spacing: 12px;
+	font-size: 2.1rem;
+	color: black;
+	font-weight: 500;
+    line-height: 1.1;
+	display: block;
+	text-align: left;
+	padding-left: 10.0rem;
+	padding-top: 2.0rem;
+	padding-bottom: 20px;
+	/* font: bold 25px Courier; */
+	/* color: #61892F; */
+}
+
+#about_section{
+	padding-left: 140px;
+	padding-right: 140px;
+	font-weight: 500;
+	font-size: 1.2em;
+    line-height: 1.4;
+	letter-spacing: 1.2px;
+	text-align: left;
+	color: black;
+	
 }
 
 p {
 	padding: 20px;
-	font: normal 20px Deja vu Sans Mono;
+	font: normal Deja vu Sans Mono;
 	/* color: white; */
-	color: #6B6E70;
+	/* color: #6B6E70; */
 }
 
 .social-icons {
