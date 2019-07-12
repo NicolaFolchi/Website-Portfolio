@@ -1,185 +1,196 @@
-.home{
-	height: 800px;
-	width: 100%;
+@media only screen and (min-width: 760px){
+	body{
+		
+		text-align: center;
+		background: url(images/asfalt.png) repeat;/*; /* url(images/pattern.png) repeat;99badd tar heel blue*/  /*333435 tentative grey*/
 
-}
+		/* height: 98vh; */
+	}
+	.home{
+		height: 800px;
+		width: 100%;
 
-.about{
-	height: 600px;
-	background-color: white;
-	margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-	padding-top: 40px;
-    padding-bottom: 40px;
-}
+	}
 
-body{
+	.about{
+		height: 600px;
+		background-color: white;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 100%;
+	}
+
+	.center{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		display: block;
+		text-align: center;
+	}
+	h1{ 
+		
+		/* text-align: left; */
+		/* display: inline-block; /*centers my title*/ 
+		/* font: bold 30px consolas; */
+		/* color: #fff; */
+		/* padding: 5px; */
+		/* -webkit-border-radius: 10px;	 */
+		/* -webkit-box-flex: 1; */
+		/* -webkit-transform: translate(340px, 10px); /* moves my title box to a specified amt. of pixels */ 
+		/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
+		/* -webkit-transition: color 1s; */
+		
+		letter-spacing: 25px;
+		font-size: 2.5rem;
+		color: white;
+		font-weight: 500;
+		line-height: 1.1;
+		display: block;
+	}
+
+	h3{
+		font-size: 1.75rem;
+		letter-spacing: 2px;
+		font-weight: 500;
+		line-height: 1.1;
+		color: white;
+	}
+
+	#main_title:hover{
+		color: #ff2b3b;
+	}
+
+	#sub_title{
+		font: bold 25px Courier;
+		padding-top: 10px;
+	}
+
+	#container {
+
+		/* -webkit-box-flex: 1; */
+		/* -webkit-border-radius: 10px; */
+		/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
+	}
+	#menu{
+		background: url(images/asfalt.png) repeat;
+		overflow: hidden;
+		margin: 20px 160px 20px 160px; /*20px top margin, automatic right margin, 20px bottom margin, automatic left margin. */
+
+	}
+
+
+	#menu a{
+		float: right;
+		display: inline;
+		list-style: none;
+		font: 16px Helvetica;
+		margin-top: 20px;
+		padding: 14px 25px;
+		text-decoration: none;
+		color: #6B6E70;
+		-webkit-transition: background 0.1s, color 0.3s;
+	}
+
+	#menu a:hover{
+		background: #86C232; /* green */
+		color: white;
+	}
+
+	a:link, a:visited {
+		display: block; /* must have "diplay: block;" in order for padding to take effect on inline elements */
+		border:  1px #79a4d2;
+		font: bold 15px Consolas;
+		color: black;
+		/*padding: 5px;*/
+		/*padding-left:40px;*/
+		/*padding-right: 40px;*/
+	}
+
+	.introduction{
+		
+	}
+
+
+	#temp{
+		/* background-color: #fff; */
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	#about_title{
+		letter-spacing: 12px;
+		font-size: 2.1rem;
+		color: black;
+		font-weight: 500;
+		line-height: 1.1;
+		display: block;
+		text-align: left;
+		padding-left: 10.0rem;
+		padding-top: 2.0rem;
+		padding-bottom: 20px;
+		/* font: bold 25px Courier; */
+		/* color: #61892F; */
+	}
+
+	#about_section{
+		padding-left: 140px;
+		padding-right: 140px;
+		font-weight: 500;
+		font-size: 1.2em;
+		line-height: 1.4;
+		letter-spacing: 1.2px;
+		text-align: left;
+		color: black;
+		
+	}
+
+	p {
+		padding: 20px;
+		font: normal Deja vu Sans Mono;
+		/* color: white; */
+		/* color: #6B6E70; */
+	}
+
+	#contact_info{
+		font: bold 25px Courier; 
+		line-height: 1.4;
+		color: #61892F;
+	}
 	
-	text-align: center;
-	background: url(images/asfalt.png) repeat;/*; /* url(images/pattern.png) repeat;99badd tar heel blue*/  /*333435 tentative grey*/
+	#contact_p{
+		color: #6B6E70;
+		font: normal 20px Deja vu Sans Mono;
+	}
+		
+	.social-icons {
+	  text-align: center;
+	  padding: 0px;
+	  margin: 0px;
+	}  
 
-	/* height: 98vh; */
+	.social-icons li {
+	  display:inline-block;
+	  list-style-type:none;
+	  -webkit-user-select:none;
+	  -moz-user-select:none;
+	}
+	 
+	.social-icons li a {
+	  border-bottom: none;
+	 }
+	  
+	.social-icons li img {
+	  width: 45px;
+	  height: 45px;
+	  margin-right: 5px;
+	}
 }
 
-.center{
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-	display: block;
-}
-h1{ 
-	
-	/* text-align: left; */
-	/* display: inline-block; /*centers my title*/ 
-	/* font: bold 30px consolas; */
-	/* color: #fff; */
-	/* padding: 5px; */
-	/* -webkit-border-radius: 10px;	 */
-	/* -webkit-box-flex: 1; */
-	/* -webkit-transform: translate(340px, 10px); /* moves my title box to a specified amt. of pixels */ 
-	/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
-	/* -webkit-transition: color 1s; */
-	
-	letter-spacing: 25px;
-	font-size: 2.5rem;
-	color: white;
-	font-weight: 500;
-    line-height: 1.1;
-	display: block;
-}
-
-h3{
-	font-size: 1.75rem;
-	letter-spacing: 2px;
-    font-weight: 500;
-    line-height: 1.1;
-	color: white;
-}
-
-#main_title:hover{
-	color: #ff2b3b;
-}
-
-#sub_title{
-	font: bold 25px Courier;
-	padding-top: 10px;
-}
-
-#container {
-
-	/* -webkit-box-flex: 1; */
-	/* -webkit-border-radius: 10px; */
-	/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
-}
-#menu{
-	background: url(images/asfalt.png) repeat;
-	overflow: hidden;
-		width: 1200px; 
-	margin: 20px auto 20px; /*20px top margin, automatic right margin, 20px bottom margin, automatic left margin. */
-
-}
-
-
-#menu a{
-	float: right;
-	display: inline;
-	list-style: none;
-	font: 16px Helvetica;
-	margin-top: 20px;
-	padding: 14px 25px;
-	text-decoration: none;
-	color: #6B6E70;
-	-webkit-transition: background 0.1s, color 0.3s;
-}
-
-#menu a:hover{
-	background: #86C232; /* green */
-	color: white;
-}
-
-a:link, a:visited {
-	display: block; /* must have "diplay: block;" in order for padding to take effect on inline elements */
-	border:  1px #79a4d2;
-	font: bold 15px Consolas;
-	color: black;
-	/*padding: 5px;*/
-	/*padding-left:40px;*/
-	/*padding-right: 40px;*/
-}
-
-.introduction{
+@media only screen and (max-width: 760px){
 	
 }
-
-
-#temp{
-	/* background-color: #fff; */
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-/* #introduction, #temp{ */
-	/* padding-top: 10px; */
-	/* border-top: solid 2px #79a4d2; */
-	/* border-bottom: solid 2px #79a4d2; */
-/* } */
-
-#about_title, #contact_info{
-	letter-spacing: 12px;
-	font-size: 2.1rem;
-	color: black;
-	font-weight: 500;
-    line-height: 1.1;
-	display: block;
-	text-align: left;
-	padding-left: 10.0rem;
-	padding-top: 2.0rem;
-	padding-bottom: 20px;
-	/* font: bold 25px Courier; */
-	/* color: #61892F; */
-}
-
-#about_section{
-	padding-left: 140px;
-	padding-right: 140px;
-	font-weight: 500;
-	font-size: 1.2em;
-    line-height: 1.4;
-	letter-spacing: 1.2px;
-	text-align: left;
-	color: black;
-	
-}
-
-p {
-	padding: 20px;
-	font: normal Deja vu Sans Mono;
-	/* color: white; */
-	/* color: #6B6E70; */
-}
-
-.social-icons {
-  text-align: center;
-  padding: 0px;
-  margin: 0px;
-}  
-
-.social-icons li {
-  display:inline-block;
-  list-style-type:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-}
- 
-.social-icons li a {
-  border-bottom: none;
- }
-  
-.social-icons li img {
-  width: 45px;
-  height: 45px;
-  margin-right: 5px;
-}
-
