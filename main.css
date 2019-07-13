@@ -11,9 +11,10 @@
 		width: 100%;
 
 	}
-	
 	.navbar-nav{
-        margin: 0px auto auto 800px;
+		padding-top: 20px;
+        margin: 0px auto auto 680px;
+		/* margin: 0px auto; */
 
 	}
 	

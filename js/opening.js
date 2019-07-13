@@ -13,6 +13,7 @@ function changeFont(){
 	text.css("font", "18px Consolas");
 	text.css("float", "left");
 	text.css("color", "#86C232");
+	text.css("padding-left", "160px");
 }
 
 $("#my_name").hover(function(){

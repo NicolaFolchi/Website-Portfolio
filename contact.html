@@ -6,43 +6,64 @@
 		<title>Nicola Folchi</title>
 		<link rel="stylesheet" href="main.css">
 		<link rel="icon" href="images/LogoNF3.png">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	</head>
 		
 	<body>
-		<div id="container">
-			<div id="opening_fadein" style="display:none;">
-				<div id="menu">
-					<a href="contact.html">Contact</a>
-					<a href="Nicola Folchi CV 2019S.pdf">Resume</a>
-					<a href="index.html">Home</a>
-					<a id="my_name" href="index.html">Nicola Folchi G.</a>
-				</div>
+		<div id="opening_fadein">
+			<div id="menu">
+				<nav class="navbar navbar-expand-lg  fixed-top">	
 				
-				<div class="center">
-					<header>
-						<h1 id="contact_info">Contact Information</h1>
-					</header>
+					<button class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#collapse_target">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 					
-					<p id="contact_p">
-					As I continue to work on my website, you can contact me by:
-					<br><br>
-					Email: nicolafolchig@gmail.com
-					<br><br>
-					Phone: (786) 622-5668.
-					<br>
-					<ul class="social-icons">
-						<li><a href="http://github.com/NicolaFolchi/" target="_blank"><img src='images/Github.png' /></a></li>
-						<li><a href="http://facebook.com/nicola.folchig" target="_blank"><img src='images/Facebook.png' /></a></li>
-						<li><a href="http://instagram.com/nicolafolchi/" target="_blank"><img src='images/Instagram.png' /></a></li>
-						<li><a href="http://linkedin.com/in/nicola-folchi-gutierrez-4a4920155" target="_blank"><img src='images/Linkedin.png' /></a></li>
-					</ul>
-					</p>
-				</div>
+					
+					<a class="nav-link" id="my_name" href="index.html">Nicola Folchi G.</a>
+					
+					
+					<div class="collapse navbar-collapse" id="collapse_target">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Nicola Folchi CV 2019S.pdf">Resume</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
-			<script type="text/javascript" src="js/jquery.js"></script>
-			<script type="text/javascript" src="js/opening.js"></script>
 			
+			<div class="center">
+				<header>
+					<h1 id="contact_info">Contact Information</h1>
+				</header>
+				
+				<p id="contact_p">
+				As I continue to work on my website, you can contact me by:
+				<br><br>
+				Email: nicolafolchig@gmail.com
+				<br><br>
+				Phone: (786) 622-5668.
+				<br>
+				<ul class="social-icons">
+					<li><a href="http://github.com/NicolaFolchi/" target="_blank"><img src='images/Github.png' /></a></li>
+					<li><a href="http://facebook.com/nicola.folchig" target="_blank"><img src='images/Facebook.png' /></a></li>
+					<li><a href="http://instagram.com/nicolafolchi/" target="_blank"><img src='images/Instagram.png' /></a></li>
+					<li><a href="http://linkedin.com/in/nicola-folchi-gutierrez-4a4920155" target="_blank"><img src='images/Linkedin.png' /></a></li>
+				</ul>
+				</p>
+			</div>
 		</div>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/opening.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>	
 </html>
 
