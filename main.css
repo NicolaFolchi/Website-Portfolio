@@ -11,6 +11,23 @@
 		width: 100%;
 
 	}
+	
+	.navbar-nav{
+        margin: 0px auto auto 800px;
+
+	}
+	
+	.navbar{
+		background: url(images/asfalt.png) repeat;/*; /* url(images/pattern.png) repeat;99badd tar heel blue*/  /*333435 tentative grey*/
+
+	}
+
+	.custom-toggler.navbar-toggler {
+		border-color: #FFF;
+	}
+	.custom-toggler .navbar-toggler-icon {
+	  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
 
 	.about{
 		height: 600px;
@@ -33,18 +50,6 @@
 		text-align: center;
 	}
 	h1{ 
-		
-		/* text-align: left; */
-		/* display: inline-block; /*centers my title*/ 
-		/* font: bold 30px consolas; */
-		/* color: #fff; */
-		/* padding: 5px; */
-		/* -webkit-border-radius: 10px;	 */
-		/* -webkit-box-flex: 1; */
-		/* -webkit-transform: translate(340px, 10px); /* moves my title box to a specified amt. of pixels */ 
-		/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
-		/* -webkit-transition: color 1s; */
-		
 		letter-spacing: 25px;
 		font-size: 2.5rem;
 		color: white;
@@ -106,9 +111,6 @@
 		border:  1px #79a4d2;
 		font: bold 15px Consolas;
 		color: black;
-		/*padding: 5px;*/
-		/*padding-left:40px;*/
-		/*padding-right: 40px;*/
 	}
 
 	.introduction{
