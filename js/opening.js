@@ -33,6 +33,7 @@ function changeFont(){
 	
 }
 $(window).resize(function(){
+	var text = $("#my_name");
 	if ($(window).width() > 759) {
 		text.css("padding-left", "160px");
 	}
