@@ -181,11 +181,28 @@
 		color: #6B6E70;
 		font: normal 20px Deja vu Sans Mono;
 	}
+	
+	.page-footer{
+		background-color: #19181A; /* OR 222629 */
+	}
+	
+	#footer_p{
+		letter-spacing: 5px;
+		font-size: 1.1rem;
+		color: white;
+		font-weight: 500;
+		line-height: 1.1;
+		display: block;
+		text-align: center;
+		margin-bottom: 0px;
+		padding-top: 5rem;
+	}
 		
 	.social-icons {
 	  text-align: center;
 	  padding: 0px;
 	  margin: 0px;
+	  padding-bottom: 4rem;
 	}  
 
 	.social-icons li {
@@ -371,25 +388,49 @@
 	p {
 		padding: 20px;
 		font: normal Deja vu Sans Mono;
-		/* color: white; */
-		/* color: #6B6E70; */
+		
 	}
 
 	#contact_info{
-		font: bold 25px Courier; 
-		line-height: 1.4;
+		font: bold Courier; 
+		line-height: 1.4 !important;
 		color: #61892F;
+		padding-top: 3rem;
+		letter-spacing: 6px;
+		padding-bottom: 10px;
+		font-size: 2.25rem !important;
+		font-weight: 250;
+		display: block;
 	}
 	
 	#contact_p{
 		color: #6B6E70;
-		font: normal 20px Deja vu Sans Mono;
+		font: normal 1.55rem Deja vu Sans Mono;
+		padding: 0px;
+		padding-bottom: 2rem;
+	}
+	
+	.page-footer{
+		background-color: #19181A; /* OR 222629 */
+	}
+	
+	#footer_p{
+		letter-spacing: 5px;
+		font-size: 1.1rem;
+		color: white;
+		font-weight: 500;
+		line-height: 1.1;
+		display: block;
+		text-align: center;
+		margin-bottom: 0px;
+		padding-top: 5rem;
 	}
 		
 	.social-icons {
 	  text-align: center;
 	  padding: 0px;
 	  margin: 0px;
+	  padding-bottom: 4rem;
 	}  
 
 	.social-icons li {
