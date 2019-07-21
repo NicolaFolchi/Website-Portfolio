@@ -13,6 +13,42 @@
 
 	}
 	
+	.about{
+		height: 750px;
+		background-color: white;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 100%;
+	}
+	
+	.skills{
+		height: 435px;
+		background-color: #0B0C10;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 100%;
+	}
+	
+	.projects{
+		height: 300px;
+		background-color: white;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 100%;
+	}
+
 	.navbar-nav{
 		padding-top: 20px;
         margin: 0px auto auto 680px;
@@ -54,7 +90,7 @@
 		top:50px;
 		left: 43px;
 		-webkit-transition: opacity 0.2s;
-		}
+	}
 	
 	.read_more:hover #arrow1{
 		opacity: 0;	
@@ -67,18 +103,6 @@
 	.read_more:hover #read_more_p{
 		border: none;
 		underline: none;
-	}
-
-	.about{
-		height: 800px;
-		background-color: white;
-		margin-right: auto;
-		margin-left: auto;
-		padding-right: 15px;
-		padding-left: 15px;
-		padding-top: 40px;
-		padding-bottom: 40px;
-		width: 100%;
 	}
 
 	.center{
@@ -110,17 +134,6 @@
 		color: #ff2b3b;
 	}
 
-	#sub_title{
-		font: bold 25px Courier;
-		padding-top: 10px;
-	}
-
-	#container {
-
-		/* -webkit-box-flex: 1; */
-		/* -webkit-border-radius: 10px; */
-		/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
-	}
 	#menu{
 		background: url(images/asfalt.png) repeat;
 		overflow: hidden;
@@ -153,18 +166,7 @@
 		color: black;
 	}
 
-	.introduction{
-		
-	}
-
-
-	#temp{
-		/* background-color: #fff; */
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-
-	#about_title, #projects_title{
+	#about_title, #projects_title, #skills_title{
 		letter-spacing: 12px;
 		font-size: 2.1rem;
 		color: black;
@@ -175,8 +177,6 @@
 		padding-left: 10.0rem;
 		padding-top: 2.0rem;
 		padding-bottom: 20px;
-		/* font: bold 25px Courier; */
-		/* color: #61892F; */
 	}
 
 	#about_section, #projects_section{
@@ -184,13 +184,45 @@
 		padding-right: 140px;
 		font-weight: 500;
 		font-size: 1.2em;
-		line-height: 1.4;
+		line-height: 1.8;
 		letter-spacing: 1.2px;
 		text-align: left;
 		color: black;
-		
+	}
+	
+	#skills_title{
+		letter-spacing: 12px;
+		font-size: 2.1rem;
+		color: white;
+		font-weight: 500;
+		line-height: 1.1;
+		display: block;
+		text-align: left;
+		padding-left: 10.0rem;
+		padding-top: 2.0rem;
+		padding-bottom: 2.0rem;
+	}
+	
+	#skills_subtitle{
+		font-size: 1.25rem;
+		letter-spacing: 2px;
+		font-weight: 500;
+		line-height: 1.5;
+		color: white;
+		padding-left: 20px;
+		padding-bottom: 2rem;
 	}
 
+	#skills_section{
+		padding-left: 140px;
+		padding-right: 140px;
+		font-weight: 500;
+		font-size: 0.95rem;
+		line-height: 1.4;
+		letter-spacing: 1.2px;
+		text-align: left;
+		color: white;
+	}
 	p {
 		padding: 20px;
 		font: normal Deja vu Sans Mono;
@@ -263,6 +295,42 @@
 		width: 100%;
 
 	}
+	
+	.about{
+		height: 1020px;
+		background-color: white;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 100%;
+	}
+	
+	.skills{
+		height: 880px;
+		background-color: #0B0C10;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 100%;
+	}
+	
+	.projects{
+		height: 430px;
+		background-color: white;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		width: 100%;
+	}
 	.navbar-nav{
         margin: 0px 22px;
 		
@@ -291,29 +359,16 @@
 		text-align: center;
 	}
 	
-	#arrow1
-	{
+	#arrow1{
 		position: relative;
 		top: 0;
 		left: 0;
 	}
-	#arrow2
-	{
+	
+	#arrow2{
 		position: absolute;
 		top:50px;
 		left: 43px;
-		}
-	
-	.about{
-		height: 880px;
-		background-color: white;
-		margin-right: auto;
-		margin-left: auto;
-		padding-right: 15px;
-		padding-left: 15px;
-		padding-top: 40px;
-		padding-bottom: 40px;
-		width: 100%;
 	}
 
 	.center{
@@ -347,17 +402,6 @@
 		color: #ff2b3b;
 	}
 
-	#sub_title{
-		font: bold 25px Courier;
-		padding-top: 10px;
-	}
-
-	#container {
-
-		/* -webkit-box-flex: 1; */
-		/* -webkit-border-radius: 10px; */
-		/* -webkit-box-shadow: rgb(110,110,110) 5px 5px 5px; */
-	}
 	#menu{
 		background: url(images/asfalt.png) repeat;
 		overflow: hidden;
@@ -389,18 +433,7 @@
 		color: black;
 	}
 
-	.introduction{
-		
-	}
-
-
-	#temp{
-		/* background-color: #fff; */
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-
-	#about_title, #projects_title{
+	#about_title, #projects_title, #skills_title{
 		letter-spacing: 12px;
 		font-size: 2.1rem;
 		color: black;
@@ -411,8 +444,6 @@
 		padding-left: 10px;
 		padding-top: 2.0rem;
 		padding-bottom: 20px;
-		/* font: bold 25px Courier; */
-		/* color: #61892F; */
 	}
 
 	#about_section, #projects_section{
@@ -423,6 +454,37 @@
 		text-align: left;
 		color: black;
 		
+	}
+
+	#skills_title{
+		letter-spacing: 12px;
+		font-size: 2.1rem;
+		color: white;
+		font-weight: 500;
+		line-height: 1.1;
+		display: block;
+		text-align: left;
+		padding-top: 2.0rem;
+		padding-bottom: 2.0rem;
+	}
+	
+	#skills_subtitle{
+		font-size: 1.25rem;
+		letter-spacing: 2px;
+		font-weight: 500;
+		line-height: 1.5;
+		color: white;
+		padding-left: 20px;
+		padding-bottom: 0.5rem;
+	}
+
+	#skills_section{
+		font-weight: 500;
+		font-size: 0.95rem;
+		line-height: 1.4;
+		letter-spacing: 1.2px;
+		text-align: left;
+		color: white;
 	}
 
 	p {
