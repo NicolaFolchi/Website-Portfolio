@@ -4,16 +4,19 @@ $(document).ready(function(){
 });
 
 
+
 $(document).ready(function(){
 	changeFont();
 	
-$(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
+	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+		anchor.addEventListener('click', function (e) {
+			e.preventDefault();
 
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 500);
-});
+			document.querySelector(this.getAttribute('href')).scrollIntoView({
+				behavior: 'smooth'
+			});
+		});
+	});
 });
 
 function changeFont(){
