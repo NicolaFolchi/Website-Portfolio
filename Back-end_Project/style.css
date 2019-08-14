@@ -1,0 +1,24 @@
+#main{
+    background-color: #F79E02;
+    margin: 0px auto;
+    height: 1100px;  
+
+}
+#main_title{
+    padding-top: 15rem;
+}
+
+#buttons_body{
+
+    padding-top: 4rem;
+}
+
+#my_b:hover{
+
+    background: #FCCD04;
+}
+
+#temp_p{
+    margin-top: 5rem;
+
+}
