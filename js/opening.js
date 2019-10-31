@@ -7,6 +7,10 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	changeFont();
+
+	for (let i = 0; i < projects.length; i++){
+		$("#attachProjects").append(generateProjects(projects[i]));
+	}
 	
 	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 		anchor.addEventListener('click', function (e) {
@@ -45,3 +49,18 @@ $("#my_name").hover(function(){
 	// text.css.animate("background-color", "yellow");
 	$("#my_name").css("background", "url(images/asfalt.png)");
 });
+
+function generateProjects(project){
+	return `
+	<div class="card bg-light" style="width: 18rem;">
+	<img class="card-img-top" src="${project.pImg}" alt="Card image cap">
+		<div class="card-body">
+			<h4 class="card-title">${project.pName}</h4>
+			<p class="card-text">${project.pDescription}</p>
+			<a href="${project.pLink}" class="btn btn-primary">Try me!</a>
+		</div>
+		<div class="card-footer">
+			<small class="text-muted">Last updated ${project.pLastUpdated}</small>
+		</div>	
+	</div>`
+}
