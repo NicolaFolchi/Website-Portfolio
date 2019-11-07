@@ -1,7 +1,7 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 	
-	$("#opening_fadein").fadeIn(1000);
-});
+// 	$("#opening_fadein").fadeIn(1000);
+// });
 
 
 
