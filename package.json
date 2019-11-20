@@ -1,0 +1,23 @@
+{
+  "name": "website-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "bulma": "^0.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolaFolchi/Website-Portfolio.git"
+  },
+  "author": "Nicola Folchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolaFolchi/Website-Portfolio/issues"
+  },
+  "homepage": "https://github.com/NicolaFolchi/Website-Portfolio#readme"
+}
