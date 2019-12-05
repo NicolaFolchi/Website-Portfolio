@@ -8,9 +8,9 @@
 $(document).ready(function(){
 	changeFont();
 
-	// for (let i = 0; i < projects.length; i++){
-	// 	$("#attachProjects").append(generateProjects(projects[i]));
-	// }
+	for (let i = 0; i < projects.length; i++){
+		$("#attachProjects").append(generateProjects(projects[i]));
+	}
 	
 	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 		anchor.addEventListener('click', function (e) {
