@@ -594,10 +594,10 @@
 	}
 }
 
-@media only screen and (max-width: 376px){ /* Phones */
+@media only screen and (max-width: 376px){ /* Mid-sized Phones (Galaxy S5)*/
 	
 	.projects{
-		height: 1500px;
+		height: 2300px;
 		background-color: white;
 		margin-right: auto;
 		margin-left: auto;
@@ -609,7 +609,7 @@
 	}
 }
 
-@media only screen and (max-width: 321px){ /* small phones */
+@media only screen and (max-width: 321px){ /* small phones (Iphone 5/5s) */
 	
 	.home{
 		height: 600px;
@@ -642,7 +642,7 @@
 	}
 	
 	.projects{
-		height: 1580px;
+		height: 2300px;
 		background-color: white;
 		margin-right: auto;
 		margin-left: auto;
