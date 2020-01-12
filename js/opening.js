@@ -56,11 +56,12 @@ function generateProjects(project){
 	<img class="card-img-top" src="${project.pImg}" alt="Card image cap">
 		<div class="card-body">
 			<h4 class="card-title">${project.pName}</h4>
-			<p class="card-text">${project.pDescription}</p>
+			<p class="projectCard card-text" style="height:250px;">${project.pDescription}</p>
 			<a href="${project.pLink}" class="btn btn-primary">Try me!</a>
 		</div>
 		<div class="card-footer">
 			<small class="text-muted">Last updated ${project.pLastUpdated}</small>
 		</div>	
-	</div>`
+	</div>
+	<br>`
 }
