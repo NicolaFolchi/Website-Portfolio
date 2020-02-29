@@ -10,7 +10,7 @@ const projects = [{
      id: 2,
      pName: "Adagio",
      pDescription: "A web aplication developed to provide a space for both casual music listeners and music enthusiasts to share, rate, and review songs and albums with friends.",
-     pImg: "/../images/2048.png",
+     pImg: "/../images/adagio.png",
      pLink: "https://github.com/NicolaFolchi/comp426-webapp-project",
      pLastUpdated: "December 2019"
  }
