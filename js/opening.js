@@ -53,7 +53,7 @@ $("#my_name").hover(function(){
 function generateProjects(project){
 	return `
 	<div class="card bg-light" style="width: 18rem;">
-	<img class="card-img-top" src="${project.pImg}" alt="Card image cap">
+	<img class="card-img-top" src="${project.pImg}" style="height:12rem;" alt="Card image cap">
 		<div class="card-body">
 			<h4 class="card-title">${project.pName}</h4>
 			<p class="projectCard card-text" style="height:250px;">${project.pDescription}</p>
