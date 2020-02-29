@@ -339,7 +339,7 @@
 	}
 	
 	.projects{
-		height: 2100px;
+		height: 2250px;
 		background-color: white;
 		margin-right: auto;
 		margin-left: auto;
@@ -597,7 +597,7 @@
 @media only screen and (max-width: 376px){ /* Mid-sized Phones (Galaxy S5)*/
 	
 	.projects{
-		height: 2300px;
+		height: 2500px;
 		background-color: white;
 		margin-right: auto;
 		margin-left: auto;
@@ -642,7 +642,7 @@
 	}
 	
 	.projects{
-		height: 2300px;
+		height: 2450px;
 		background-color: white;
 		margin-right: auto;
 		margin-left: auto;
