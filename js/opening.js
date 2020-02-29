@@ -57,7 +57,7 @@ function generateProjects(project){
 		<div class="card-body">
 			<h4 class="card-title">${project.pName}</h4>
 			<p class="projectCard card-text" style="height:250px;">${project.pDescription}</p>
-			<a href="${project.pLink}" class="btn btn-primary">Try me!</a>
+			<a href="${project.pLink}" class="btn btn-primary">${project.pButtomMessage}</a>
 		</div>
 		<div class="card-footer">
 			<small class="text-muted">Last updated ${project.pLastUpdated}</small>
