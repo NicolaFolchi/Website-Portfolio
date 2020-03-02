@@ -56,7 +56,7 @@ function generateProjects(project){
 	<img class="card-img-top" src="${project.pImg}" style="height:12rem;" alt="Card image cap">
 		<div class="card-body">
 			<h5 class="card-title">${project.pName}</h4>
-			<p class="projectCard card-text" style="height:165px; font-size:12px;">${project.pDescription}</p>
+			<p class="projectCard card-text" style="height:220px; font-size:13.5px;">${project.pDescription}</p>
 			<a href="${project.pLink}" class="btn btn-primary">${project.pButtomMessage}</a>
 		</div>
 		<div class="card-footer">

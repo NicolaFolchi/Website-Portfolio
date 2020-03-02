@@ -343,7 +343,7 @@
 	}
 	
 	.projects{
-		height: 2250px;
+		height: 3150px;
 		background-color: white;
 		margin-right: auto;
 		margin-left: auto;
@@ -354,7 +354,8 @@
 		width: 100%;
 	}
 	.projectCard{
-		height: 150px;
+		height: 160px !important;
+		font-size: 14px !important;
 	}
 	.navbar-nav{
         margin: 0px 22px;
