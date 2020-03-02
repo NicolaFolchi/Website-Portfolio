@@ -11,7 +11,7 @@ const projects = [{
     id: 2,
     pName: "MiniJava Compiler",
     pDescription: "A java program that compile the subset of Java called \"MiniJava\" and targets the mJAM abstract machine. Currently on development",
-    pImg: "/../images/game2048.png",
+    pImg: "",
     pLink: "#",
     pLastUpdated: "March 2020",
     pButtomMessage: "Comming Soon!"
@@ -20,7 +20,7 @@ const projects = [{
     id: 3,
     pName: "Parlario",
     pDescription: "Web Application that allows users to chat with people who they share a specific interest. The Web App hosts chat rooms that users create and everyone can join.",
-    pImg: "/../images/game2048.png",
+    pImg: "",
     pLink: "https://github.com/NicolaFolchi/Parlario",
     pLastUpdated: "October 2019",
     pButtomMessage: "See on GitHub"
