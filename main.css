@@ -248,6 +248,10 @@
 		/* color: #6B6E70; */
 	}
 
+	.projectCard {
+		height: 160px;
+	}
+
 	#contact_info{
 		font: bold 25px Courier; 
 		line-height: 1.4;
@@ -350,7 +354,7 @@
 		width: 100%;
 	}
 	.projectCard{
-		height: 310px !important;
+		height: 150px;
 	}
 	.navbar-nav{
         margin: 0px 22px;
