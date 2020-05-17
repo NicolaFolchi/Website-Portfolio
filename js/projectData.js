@@ -10,17 +10,17 @@ const projects = [{
 {
     id: 2,
     pName: "MiniJava Compiler",
-    pDescription: "A java program that compile the subset of Java called \"MiniJava\" and targets the mJAM abstract machine. Currently on development",
-    pImg: "",
-    pLink: "#",
+    pDescription: "A compiler written in Java for \"MiniJava\", a subset of Java, which creates mJAM instrunctions to be utilized by the JVM",
+    pImg: "/../images/minijava-compiler.PNG",
+    pLink: "https://minijava-compiler.herokuapp.com/",
     pLastUpdated: "March 2020",
-    pButtomMessage: "Comming Soon!"
+    pButtomMessage: "Visit Now!"
 },
 {
     id: 3,
     pName: "Parlario",
     pDescription: "Web Application that allows users to chat with people who they share a specific interest. The Web App hosts chat rooms that users create and everyone can join.",
-    pImg: "",
+    pImg: "/../images/parlario.PNG",
     pLink: "https://github.com/NicolaFolchi/Parlario",
     pLastUpdated: "October 2019",
     pButtomMessage: "See on GitHub"
