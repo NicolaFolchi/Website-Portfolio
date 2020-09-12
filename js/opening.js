@@ -9,7 +9,12 @@ $(document).ready(function(){
 	changeFont();
 
 	for (let i = 0; i < projects.length; i++){
-		$("#attachProjects").append(generateProjects(projects[i]));
+		if (i >= 4) {
+			$("#attachProjects").append(`<div class="card-deck" id="attachProjects2"></div>`);
+			$("#attachProjects2").append(generateProjects(projects[i]));
+		} else {
+			$("#attachProjects").append(generateProjects(projects[i]));
+		}
 	}
 	
 	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
