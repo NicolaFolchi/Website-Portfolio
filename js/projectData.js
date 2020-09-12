@@ -11,7 +11,7 @@ const projects = [{
     id: 2,
     pName: "MiniJava Compiler",
     pDescription: "A compiler written in Java for \"MiniJava\", a subset of Java, which creates mJAM instrunctions to be utilized by the JVM",
-    pImg: "/../images/minijava2.PNG",
+    pImg: "/../images/minijava.PNG",
     pLink: "https://minijava-compiler.herokuapp.com/",
     pLastUpdated: "May 2020",
     pButtomMessage: "Visit Compiler"
@@ -20,7 +20,7 @@ const projects = [{
     id: 3,
     pName: "Stodius",
     pDescription: "Web application focused on improving academics at UNC by facilitating the creation of study groups for individual classes",
-    pImg: "/../images/stodius-team.PNG",
+    pImg: "/../images/stodius.PNG",
     pLink: "http://stodius.com/",
     pLastUpdated: "April 2020",
     pButtomMessage: "Visit Stodius"
