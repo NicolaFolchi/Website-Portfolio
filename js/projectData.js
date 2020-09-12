@@ -14,7 +14,7 @@ const projects = [{
     pImg: "/../images/minijava2.PNG",
     pLink: "https://minijava-compiler.herokuapp.com/",
     pLastUpdated: "May 2020",
-    pButtomMessage: "Visit Now!"
+    pButtomMessage: "Visit Compiler"
 },
 {
     id: 3,
